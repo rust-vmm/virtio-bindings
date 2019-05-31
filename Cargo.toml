@@ -1,0 +1,13 @@
+[package]
+name = "virtio-bindings"
+version = "0.1.0"
+authors = ["Sergio Lopez <slp@redhat.com>"]
+description = "Rust FFI bindings to virtio generated using bindgen."
+edition = "2018"
+license = "BSD-3-Clause OR Apache-2.0"
+
+[features]
+virtio-v4_14_0 = []
+virtio-v5_0_0 = []
+
+[dependencies]
