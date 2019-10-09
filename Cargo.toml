@@ -3,7 +3,10 @@ name = "virtio-bindings"
 version = "0.1.0"
 authors = ["Sergio Lopez <slp@redhat.com>"]
 description = "Rust FFI bindings to virtio generated using bindgen."
+repository = "https://github.com/rust-vmm/virtio-bindings"
+readme = "README.md"
 edition = "2018"
+keywords = ["virtio"]
 license = "BSD-3-Clause OR Apache-2.0"
 
 [features]
